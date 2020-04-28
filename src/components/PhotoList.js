@@ -8,6 +8,7 @@ function PhotoList() {
         axios.get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
             .then((response) => {
                 console.log(response);
+                setPhotos(response.data);
             })
             .catch((error) => {
                 console.log(`An error occurred: ${error}`);
@@ -16,7 +17,7 @@ function PhotoList() {
 
     return (
         <div className="photos">
-            
+
         </div>
     )
 }
