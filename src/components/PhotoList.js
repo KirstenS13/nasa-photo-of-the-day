@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import PhotoCard from "./PhotoCard.js";
+
 function PhotoList() {
     const [photos, setPhotos] = useState([]);
 
@@ -17,7 +19,12 @@ function PhotoList() {
 
     return (
         <div className="photos">
-
+            <PhotoCard 
+                title={photos.title} 
+                date={photos.date} 
+                explanation={photos.explanation} 
+                url={photos.url}
+            />
         </div>
     )
 }
