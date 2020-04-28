@@ -13,6 +13,12 @@ function PhotoList() {
                 console.log(`An error occurred: ${error}`);
             });
     }, []);
+
+    return (
+        <div className="photos">
+            
+        </div>
+    )
 }
 
 export default PhotoList;
