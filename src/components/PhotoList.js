@@ -5,7 +5,13 @@ function PhotoList() {
     const [photos, setPhotos] = useState([]);
 
     useEffect(() => {
-
+        axios.get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
+            .then((response) => {
+                console.log(response);
+            })
+            .catch((error) => {
+                console.log(`An error occurred: ${error}`);
+            });
     }, []);
 }
 
