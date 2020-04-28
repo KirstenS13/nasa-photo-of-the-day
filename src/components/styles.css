@@ -1,0 +1,13 @@
+/* My styles */
+
+.textContent {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.textContent p {
+    /* padding: 5px 0; */
+    line-height: 1.5;
+}

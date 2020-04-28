@@ -5,10 +5,11 @@ import PhotoList from "./components/PhotoList.js";
 function App() {
   return (
     <div className="App">
-      <p>
+      {/* <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      </p> */}
+      <h1>NASA Astronomy Photo of the Day</h1>
       <PhotoList />
     </div>
   );
