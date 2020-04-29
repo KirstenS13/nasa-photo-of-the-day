@@ -12,6 +12,7 @@ function App() {
       </p> */}
       <h1>NASA Astronomy Photo of the Day</h1>
       <PhotoList />
+      <p className="bgImgCredit">Background Photo by Ivana Cajina on Unsplash</p>
     </div>
   );
 }
