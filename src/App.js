@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import PhotoList from "./components/PhotoList.js";
+import "./components/styles.css";
 
 function App() {
   return (
