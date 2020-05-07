@@ -24,6 +24,7 @@ function PhotoList() {
                 date={photos.date} 
                 explanation={photos.explanation} 
                 url={photos.url}
+                copyright={photos.copyright}
             />
         </div>
     )
