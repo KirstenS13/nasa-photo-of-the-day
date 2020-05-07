@@ -3,16 +3,16 @@
   /*My styles*/
   width: 80%;
   margin: auto;
-  color: white;
+  /* color: white; */
   /*End my Styles*/
 }
 
 /*My styles*/
 
-.App h1 {
+/* .App h1 {
   height: 10vh;
   margin: 45vh 0;
-}
+} */
 
 .bgImgCredit {
   color: grey;
