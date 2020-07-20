@@ -1,6 +1,24 @@
 .App {
   text-align: center;
+  /*My styles*/
+  width: 80%;
+  margin: auto;
+  /* color: white; */
+  /*End my Styles*/
 }
+
+/*My styles*/
+
+/* .App h1 {
+  height: 10vh;
+  margin: 45vh 0;
+} */
+
+.bgImgCredit {
+  color: grey;
+}
+
+/*End my styles*/
 
 .App-logo {
   height: 40vmin;
